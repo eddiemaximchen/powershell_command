@@ -1,0 +1,1 @@
+powershell -Command "(Get-CimInstance Win32_PhysicalMemory | Measure-Object -Property capacity -Sum).sum # get memory size in bytes
